@@ -105,11 +105,14 @@ def chat():
         result_index = numpy.argmax(results)
         tag = labels[result_index]
         
-        for tg in data["intents"]:
-            if tg['tag'] == tag:
-                responses = tg['responses']
-        
-        print(random.choice(responses))
+        if results[0][result_index] > 0.7:
+            for tg in data["intents"]:
+                if tg['tag'] == tag:
+                    responses = tg['responses']
+            
+            print(random.choice(responses))
+        else:
+            print("I didn't get what you mean pal. Sorry, try again")
 
 chat()
         
