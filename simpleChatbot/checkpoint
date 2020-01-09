@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\user\\desktop\\simpleChatbot\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\user\\desktop\\simpleChatbot\\model.tflearn"
+model_checkpoint_path: "C:\\Users\\user\\desktop\\GithubRepos\\SimpleChatbot\\SimpleChatbot\\model.tflearn"
+all_model_checkpoint_paths: "C:\\Users\\user\\desktop\\GithubRepos\\SimpleChatbot\\SimpleChatbot\\model.tflearn"
